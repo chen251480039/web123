@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>社團</title>
+        <meta name="description" content="社團">
+        <meta name="keywords" content="劍道社、資安社">
+        <meta name="author" content="陳立心">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                width: 100%;
+                min-width: 600px;
+                max-width: 960px;
+                margin: 0 auto;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                background-color: black; /* 黑色背景 */
+                color: white; /* 白色字體 */
+            }
+            header {
+                margin: 1%;
+                background: #333; /* 深灰色背景 */
+                padding: 10px;
+                border-radius: 5px;
+            }
+            main {
+                float: left;
+                width: 100%;
+                height: auto;
+                margin: 1%;
+                background: #555; /* 中灰色背景 */
+                padding: 20px;
+                box-sizing: border-box;
+                border-radius: 5px;
+            }
+            footer {
+                clear: left;
+                margin: 1%;
+                background: #333; /* 深灰色背景 */
+                padding: 10px;
+                border-radius: 5px;
+            }
+            h2 {
+                margin-top: 0;
+            }
+            .club-container {
+                display: flex;
+                justify-content: space-around; /* 使項目平分佈 */
+                flex-wrap: wrap; /* 讓項目在小螢幕上換行 */
+            }
+            .club {
+                background: #777; /* 亮灰色背景 */
+                border-radius: 5px;
+                margin: 10px;
+                padding: 10px;
+                width: 40%; /* 設定每個社團區塊的寬度 */
+                box-sizing: border-box;
+            }
+            .club img {
+                max-width: 100%; /* 使圖片自適應寬度 */
+                height: auto; /* 讓圖片保持原比例 */
+                border-radius: 5px; /* 圖片圓角 */
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>社團</h1></header>
+        
+        <main>
+            <h2>參加的社團</h2>
+            <div class="club-container">
+                <div class="club">
+                    <img src="hack.jpg" alt="資安社">
+                    <h3>資安社</h3>
+                    <p>資安社致力於提高學生的資訊安全意識，定期舉辦講座和實作課程。</p>
+                </div>
+                <div class="club">
+                    <img src="kendo.jpg" alt="劍道社">
+                    <h3>劍道社</h3>
+                    <p>劍道社提供學生學習劍道的機會，並參加各類比賽以提升技術。</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <h5>© 2024 陳立心</h5>
+        </footer>
+    </body>
+</html>
